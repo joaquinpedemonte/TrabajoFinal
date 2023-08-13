@@ -1,0 +1,27 @@
+.tituloPrincipal{
+    font-family: $tipografia-general;
+    font-weight:map-get($grosores-fuentes, medium);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tituloSecundario{
+    font-family: $tipografia-general;
+    font-weight:map-get($grosores-fuentes, regular);
+    margin-top: 5px;
+}
+.textoParrafo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: $tipografia-general;
+    font-size: map-get($sizes-fuentes, 16);
+    color: $color-texto;
+    text-align: justify;
+}
+.fade-in {
+	-webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+span{
+    font-style: italic;
+}

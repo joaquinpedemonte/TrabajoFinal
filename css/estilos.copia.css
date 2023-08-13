@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ @font-face{
+    font-family: "Wixmadefortext";
+    src: url(../assets/fonts/WixMadeforText-Medium.ttf);
+}
+body{
+    font-family: "Wixmadefortext", sans-serif;
+}
+.carousel-item img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border: 1px solid black;    
+}
+.loMas{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Wixmadefortext";
+    font-weight: 400;
+}
+.tituloPrincipalInicio{
+    margin-top: 30px;
+    font-family: "Wixmadefortext";
+    text-align: center;
+}
+.tituloPrincipal{
+    font-family: "Wixmadefortext";
+    font-weight:550;
+    margin-bottom: 25px;
+}
+.tituloSecundario{
+    
+    font-family: "Wixmadefortext";
+    font-weight: 450;
+    margin-top: 30px;
+}
+.videos{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textoParrafo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Wixmadefortext";
+}
+.card{
+    width: 35rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+.divLaVideoteca img{
+    width: 50vh;
+    margin: 25px;
+    border: 1px solid black;
+}
+.archivo iframe{
+   margin-bottom: 20px;
+   border: 1px solid black;
+}
+.divServicios img{
+    width: 50vh;
+    margin: 25px;
+    border: 1px solid black;
+}
+.formulario{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mapa{   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+.textoParrafoFooter{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Wixmadefortext";
+}
+.anclasFooter{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: "Wixmadefortext";
+    color: rgb(0, 0, 0);
+}
+.iconosRedes{
+    size: 50%;
+
+}
+@media screen and (min-widht:0px) and (max-width: 768px) {
+    .carousel-item{
+        height: 40vh;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .laVideoteca{
+        display: block;
+        flex-direction: column;
+    }
+}

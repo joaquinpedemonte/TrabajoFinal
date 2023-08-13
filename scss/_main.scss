@@ -1,0 +1,101 @@
+.main{
+    .tituloPrincipalInicio{
+        margin-top: 30px;
+        font-family: $tipografia-general;
+        text-align: center;
+        font-weight:map-get($grosores-fuentes, medium);
+    }
+    .loMas{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-family: $tipografia-general;
+        font-weight: map-get($grosores-fuentes, medium);
+    }
+    .videos{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: $border-general;
+    }   
+}
+.divLaVideoteca{ 
+    img{
+        width: 50vh;
+        margin: 25px;
+        border: $border-general;
+        padding:0%;
+        transition: 0.5s;
+        object-fit: cover;
+        -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);    
+            &:hover{
+                transform: scale(1.2)
+            }
+    }    
+}
+.archivo{  
+    iframe{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: $border-general;
+    }
+    img{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: $border-general;  
+        transform: translateX(-10px);
+    }
+}
+.divServicios{ 
+    img{
+        width: 50vh;
+        margin: 25px;
+        border: $border-general;
+        transition: 0.5s;
+        object-fit: cover;
+        -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);    
+            &:hover{
+                transform: scale(1.2)
+            }
+    }
+}
+.contacto{
+    .formulario{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .mapa{   
+        @extend .formulario;
+        border: $border-general;       
+    }        
+}    
+.error404{ 
+    img{
+        width: 75vh;
+        margin: 25px;
+        border: $border-general;
+        padding:0%;
+    }    
+}
+@media screen and (min-width:0px) and (max-width: 768px) {
+    .divLaVideoteca{ 
+        img{
+            width: 35vh;            
+        }    
+    }
+    .archivo{  
+        img{
+            width: 43vh;             
+        }
+    }
+    .divServicios{ 
+        img{
+            width: 35vh;
+        }
+    }
+    .error404{ 
+        img{
+            width: 40vh;
+        }    
+    }
+
+}

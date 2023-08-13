@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Binaria";
+  background-color: white;
+  color: black;
+}
+
+.tituloPrincipal {
+  font-family: "Binaria";
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tituloSecundario {
+  font-family: "Binaria";
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.textoParrafo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Binaria";
+  font-size: 16px;
+  color: #000000;
+  text-align: justify;
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+span {
+  font-style: italic;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.navbar-nav a:hover, .navbar-nav a:focus {
+  background-size: 100% 2px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+@media screen and (min-widht: 0px) and (max-width: 768px) {
+  .carousel-item {
+    height: 40vh;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.main .tituloPrincipalInicio {
+  margin-top: 30px;
+  font-family: "Binaria";
+  text-align: center;
+  font-weight: 500;
+}
+.main .loMas {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Binaria";
+  font-weight: 500;
+}
+.main .videos {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.divLaVideoteca img {
+  width: 50vh;
+  margin: 25px;
+  border: 1px solid black;
+  padding: 0%;
+  transition: 0.5s;
+  object-fit: cover;
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+}
+.divLaVideoteca img:hover {
+  transform: scale(1.2);
+}
+
+.archivo iframe {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.archivo img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  transform: translateX(-10px);
+}
+
+.divServicios img {
+  width: 50vh;
+  margin: 25px;
+  border: 1px solid black;
+  transition: 0.5s;
+  object-fit: cover;
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+}
+.divServicios img:hover {
+  transform: scale(1.2);
+}
+
+.contacto .formulario, .contacto .mapa {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contacto .mapa {
+  border: 1px solid black;
+}
+
+.error404 img {
+  width: 75vh;
+  margin: 25px;
+  border: 1px solid black;
+  padding: 0%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .divLaVideoteca img {
+    width: 35vh;
+  }
+  .archivo img {
+    width: 43vh;
+  }
+  .divServicios img {
+    width: 35vh;
+  }
+  .error404 img {
+    width: 40vh;
+  }
+}
+.footer a {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.footer .textoParrafoFooter {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Binaria";
+  color: black;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Binaria";
+  src: url(../assets/fonts/Binaria-Medium.otf);
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.mapa {
+  border: 1px solid black;
+}/*# sourceMappingURL=estilos.css.map */
